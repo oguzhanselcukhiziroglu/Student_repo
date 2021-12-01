@@ -1,0 +1,73 @@
+body{
+    height: 100vh
+}
+#header{
+    background-color: black;
+    border-bottom: 5px solid red;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+}
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header a:hover{
+    background-color: orange;
+    color: lime;
+}
+#header li{
+    display: inline;
+    padding: 0 20px;
+    font-family: "Audiowide", sans-serif;
+}
+#branding{
+    color: white;
+    font-family: "Audiowide", sans-serif;
+}
+span{
+    color: #ff0000;
+}
+#main{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), 
+    url(images/banner.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 85vh;
+}
+#main h1 {
+    font-size: 60px;
+    margin: 200px 0 10px;
+    font-family: "Audiowide", sans-serif;
+}
+#main p{
+    font-size: 30px;
+    font-family: "Audiowide", sans-serif;
+}
+#about, #contact{
+    background-color: black;
+    color: white;
+}
+#about h2, #contact h2{
+    color:red;
+    text-align:center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+}
+#about p, #contact p{
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif;
+    padding: 0 10px;
+}
