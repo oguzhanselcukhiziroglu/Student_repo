@@ -1,0 +1,5 @@
+1) Load Balancer
+2) Target Groups
+3) Instances
+4) Launch Templates
+5) Security Groups
